@@ -1,0 +1,42 @@
+#title span {
+display: block;	
+}
+#title {
+height: 360px;
+background-image: url(twitch_photos/space.png);
+background-size: cover;
+text-align: center;
+}
+.vertical-center{
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+width: 100%;
+text-shadow: 10px 10px #18D62F;
+}
+
+#twitch-embed{
+	padding-top: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+ position: relative;
+}
+
+.topLeft{
+	position: absolute;
+	top: 8px;
+	left: 16px;
+	font-size: 64px;
+}
+
+
+body
+{
+ padding:0;
+ margin:0;
+}
+
