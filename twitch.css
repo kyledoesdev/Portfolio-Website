@@ -8,11 +8,11 @@ background-size: cover;
 text-align: center;
 }
 .vertical-center{
-position: absolute;
-top: 50%;
-transform: translateY(-50%);
-width: 100%;
-text-shadow: 10px 10px #18D62F;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	text-shadow: 10px 10px #18D62F;
 }
 
 #twitch-embed{
@@ -30,13 +30,42 @@ text-shadow: 10px 10px #18D62F;
 	position: absolute;
 	top: 8px;
 	left: 16px;
-	font-size: 64px;
 }
 
+
+.instagram-logo{
+	position: absolute;
+	top: 8px;
+	right: 16px;
+}
+
+
+.twitter-logo{
+	position: absolute;
+	top: 122px;
+	right: 16px;
+}
+
+.facebook-logo{
+	position: absolute;
+	top: 236px;
+	right: 16px;
+}
 
 body
 {
  padding:0;
  margin:0;
+}
+
+.fan-art_pos{
+	text-align: left;
+	position: relative;
+	right: 8px;
+}
+
+.format_about{
+	margin-left: 20px;
+	font-size: 18px;
 }
 

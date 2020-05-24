@@ -1,65 +1,46 @@
 #title span {
-display: block;	
+	display: block;	
 }
 #title {
-height: 720px;
-background-image: url(photos/updated_header.png);
-background-size: cover;
-text-align: center;
+	height: 720px;
+	background-image: url(photos/updated_header.png);
+	background-size: cover;
+	text-align: center;
 }
 .vertical-center{
-position: absolute;
-top: 50%;
-transform: translateY(-50%);
-width: 100%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
 }
 
-body
-{
- padding:0;
- margin:0;
-}
 .container {
  position: relative;
 }
 .twitch-logo {
-position: absolute;
-top: 8px;
-right: 16px;
-font-size: 64px;
-}
-.instagram-logo{
-position: absolute;
-top: 122px;
-right: 16px;
-font-size: 64px
-}
-.twitter-logo{
-position: absolute;
-top: 236px;
-right: 16px;
-font-size: 64px
-}
-.facebook-logo{
-position: absolute;
-top: 350px;
-right: 16px;
-font-size: 64px
-}
-.link-logo{
-position: absolute;
-top: 464px;
-right: 16px;
-}
-.git-logo{
-position: absolute;
-top: 578px;
-right: 16px;
-}
-.tabDefault { 
-margin-left: 120px; 
-}
-.tabAlmostCenter{
-margin-left: 210px;
+	position: absolute;
+	top: 25px;
+	right: 25px;
 }
 
+.link-logo{
+	position: absolute;
+	top: 105px;
+	right: 25px;
+}
+.git-logo{
+	position: absolute;
+	top: 185px;
+	right: 25px;
+}
+.tabDefault { 
+	margin-left: 120px; 
+}
+.tabAlmostCenter{
+	margin-left: 210px;
+}
+
+body{
+ padding:0;
+ margin:0;
+}
