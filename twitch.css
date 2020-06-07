@@ -16,10 +16,11 @@ text-align: center;
 }
 
 #twitch-embed{
+	padding-left: 20px;
 	padding-top: 20px;
 	display: flex;
-	align-items: center;
-	justify-content: center;
+	align-items: left;
+	justify-content: left;
 }
 
 .container {
@@ -59,9 +60,10 @@ body
 }
 
 .fan-art_pos{
+	padding-top: 40px;
 	text-align: left;
 	position: relative;
-	right: 8px;
+	left: 5%;
 }
 
 .format_about{
