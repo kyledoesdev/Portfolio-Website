@@ -33,11 +33,61 @@
 	top: 185px;
 	right: 25px;
 }
-.tabDefault { 
-	margin-left: 120px; 
+
+.languages{
+	text-align: center;
+	float: left;
+	display: inline-block;
+	width: 50%;
 }
-.tabAlmostCenter{
-	margin-left: 210px;
+
+.technology{
+	text-align: center;
+	float: right;
+	display: inline-block;
+	width: 50%;
+}
+.grid{
+	display: flex;
+	justify-content: center;
+}
+.center{
+	width: 50%;
+}
+.experience-projects{
+	margin-left: 450px;
+}
+.experience-title{
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.experience-description{
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.project-list{
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.education-list{
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cp-text{ 
+	color: rgba(0,0,0,.7); 
+	text-shadow: 0 1px rgba(255, 255, 255, 0.1);
+	text-align: center;
+}
+
+.resume{
+	text-align: center;
 }
 
 body{
