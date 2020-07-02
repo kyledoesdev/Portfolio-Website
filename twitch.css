@@ -61,14 +61,31 @@ body
 }
 
 .fan-art_pos{
-	padding-top: 40px;
-	text-align: left;
-	position: relative;
-	padding-left: 10px;
+	width: 750px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .format_about{
-	margin-left: 20px;
-	font-size: 18px;
+	text-align: center;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.center{
+	width: 50%;
+}
+
+.format_info{
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.texture_pack{
+	width: 750px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
