@@ -1,12 +1,13 @@
 #title span {
-display: block;	
+	display: block;	
 }
+
 #title {
-width: 100%; 
-height: 360px;
-background-image: url(twitch_photos/space.png);
-background-size: cover;
-text-align: center;
+	width: 100%; 
+	height: 360px;
+	background-image: url(twitch_photos/space.png);
+	background-size: cover;
+	text-align: center;
 }
 .vertical-center{
 	position: absolute;
@@ -25,7 +26,7 @@ text-align: center;
 }
 
 .container {
- position: relative;
+ 	position: relative;
 }
 
 .topLeft{
@@ -56,8 +57,8 @@ text-align: center;
 
 body
 {
- padding:0;
- margin:0;
+ 	padding:0;
+ 	margin:0;
 }
 
 .fan-art_pos{
@@ -89,3 +90,32 @@ body
 	margin-right: auto;
 }
 
+.grid{
+	display: flex;
+	justify-content: center;
+}
+.games{
+	text-align: center;
+	float: left;
+	display: inline-block;
+	width: 50%;
+}
+
+.setup{
+	text-align: center;
+	float: right;
+	display: inline-block;
+	width: 50%;
+}
+
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+.cp-text{ 
+	color: rgba(0,0,0,.7); 
+	text-shadow: 0 1px rgba(255, 255, 255, 0.1);
+	text-align: center;
+}
