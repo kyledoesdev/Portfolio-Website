@@ -95,17 +95,31 @@ body
 	justify-content: center;
 }
 .games{
-	text-align: center;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 500px;
 	float: left;
 	display: inline-block;
+	text-align: center;
+	
+}
+.games-photo{
 	width: 50%;
 }
 
 .setup{
-	text-align: center;
-	float: right;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 500px;
+	float: left;
 	display: inline-block;
-	width: 50%;
+	text-align: center;
+}
+.resource-pack{
+	font-family: calibri,calibri,serif;
+	font-size: 35px;
+	font-style: italic; 
+	text-decoration: none;
 }
 
 
