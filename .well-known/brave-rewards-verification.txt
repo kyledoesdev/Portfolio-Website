@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: kyleevangelisto.com
+Token: d36aa45a1f7d152f9b9ba098cb779929bd1b58db7ec217e8da0144dd1ae7ecef
