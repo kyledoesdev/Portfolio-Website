@@ -1,3 +1,7 @@
+*, *:before, *:after { 
+	box-sizing: border-box; 
+}
+
 body
 {
  	padding:0;
@@ -41,7 +45,7 @@ body
 
 .format_about{
 	text-align: center;
-	width: 1000px;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -63,14 +67,14 @@ body
 }
 
 .grid{
-	display: flex;
 	justify-content: center;
+	display: flex;
 }
 .games{
+	max-width: 500px;
 	margin-left: 20px;
 	margin-right: 20px;
-	width: 500px;
-	float: left;
+	width: 50%;
 	display: inline-block;
 	text-align: center;
 	
@@ -80,10 +84,10 @@ body
 }
 
 .setup{
+	max-width: 500px;
 	margin-left: 20px;
 	margin-right: 20px;
-	width: 500px;
-	float: left;
+	width: 50%;
 	display: inline-block;
 	text-align: center;
 }
@@ -116,4 +120,6 @@ ul {
 .navbar-links a{
 	color: #BDECEE;
 	text-decoration: none;
+
+	
 }
