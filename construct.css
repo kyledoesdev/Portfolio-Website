@@ -1,3 +1,16 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+ 	padding: 0;
+ 	margin: 0;
+}
+
+a + a {
+  margin-left: 15px;
+}
+
 #title span {
 	display: block;	
 }
@@ -5,13 +18,13 @@
 	height: 720px;
 	background-image: url(photos/updated_header.png);
 	background-size: cover;
-	text-align: center;
 }
 .vertical-center{
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
 	width: 100%;
+	text-align: center;
 }
 
 .container {
@@ -35,17 +48,21 @@
 }
 
 .languages{
+	margin-left: 40px;
+	margin-right: 40px;
 	text-align: center;
 	float: left;
 	display: inline-block;
-	width: 50%;
+	width: 600px;
 }
 
 .technology{
+	margin-left: 40px;
+	margin-right: 40px;
 	text-align: center;
 	float: right;
 	display: inline-block;
-	width: 50%;
+	width: 600px;
 }
 .grid{
 	display: flex;
@@ -74,6 +91,10 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+.project-list a{
+	text-decoration: none;
+	color: #F57571;
+}
 .education-list{
 	width: 700px;
 	margin-left: auto;
@@ -90,9 +111,20 @@
 	text-align: center;
 }
 
-body{
-
- padding:0;
- margin:0;
-
+.resume a{
+	text-decoration: none;
+	color: #7197F5;
 }
+
+.navbar-links{
+	padding-top: 10px;
+	margin-left: 20px;
+	text-decoration: none;
+	font-size: 20px;
+	
+}
+.navbar-links a{
+	color: #BDECEE;
+	text-decoration: none;
+}
+

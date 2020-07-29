@@ -1,3 +1,9 @@
+body
+{
+ 	padding:0;
+ 	margin:0;
+}
+
 #title span {
 	display: block;	
 }
@@ -7,7 +13,6 @@
 	height: 360px;
 	background-image: url(twitch_photos/space.png);
 	background-size: cover;
-	text-align: center;
 }
 .vertical-center{
 	position: absolute;
@@ -15,50 +20,17 @@
 	transform: translateY(-50%);
 	width: 100%;
 	text-shadow: 10px 10px #18D62F;
-}
-
-#twitch-embed{
-	padding-left: 20px;
-	padding-top: 20px;
-	display: flex;
-	align-items: left;
-	justify-content: left;
+	text-align: center;
 }
 
 .container {
  	position: relative;
 }
 
-.topLeft{
+.logos{
 	position: absolute;
-	top: 8px;
-	left: 16px;
-}
-
-
-.instagram-logo{
-	position: absolute;
-	top: 8px;
 	right: 16px;
-}
-
-
-.twitter-logo{
-	position: absolute;
-	top: 122px;
-	right: 16px;
-}
-
-.facebook-logo{
-	position: absolute;
-	top: 236px;
-	right: 16px;
-}
-
-body
-{
- 	padding:0;
- 	margin:0;
+	top: 64px;
 }
 
 .fan-art_pos{
@@ -132,4 +104,16 @@ ul {
 	color: rgba(0,0,0,.7); 
 	text-shadow: 0 1px rgba(255, 255, 255, 0.1);
 	text-align: center;
+}
+
+.navbar-links{
+	padding-top: 10px;
+	margin-left: 20px;
+	text-decoration: none;
+	font-size: 40px;
+}
+
+.navbar-links a{
+	color: #BDECEE;
+	text-decoration: none;
 }
