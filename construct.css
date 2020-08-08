@@ -2,6 +2,19 @@ html{
 	scroll-behavior: smooth;
 }
 
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+*, *:before, *:after { 
+	box-sizing: border-box; 
+}
+
 body{
  	padding: 0;
  	margin: 0;
@@ -14,7 +27,7 @@ a + a {
 #title span {
 	display: block;	
 }
-#title {
+#title { 
 	height: 720px;
 	background-image: url(photos/updated_header.png);
 	background-size: cover;
@@ -28,7 +41,7 @@ a + a {
 }
 
 .container {
- position: relative;
+ 	position: relative;
 }
 .twitch-logo {
 	position: absolute;
@@ -65,8 +78,9 @@ a + a {
 	width: 600px;
 }
 .grid{
-	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
+	display: flex;
 }
 .center{
 	width: 50%;
@@ -76,6 +90,7 @@ a + a {
 }
 .experience-title{
 	width: 700px;
+	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 
@@ -118,7 +133,7 @@ a + a {
 
 .navbar-links{
 	padding-top: 10px;
-	margin-left: 20px;
+	padding-left: 20px;
 	text-decoration: none;
 	font-size: 20px;
 	
