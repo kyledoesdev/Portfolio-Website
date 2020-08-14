@@ -2,9 +2,29 @@
 	box-sizing: border-box; 
 }
 
+html{
+	scroll-behavior: smooth;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 body{
  	padding:0;
  	margin:0;
+}
+
+a{
+	text-decoration: none;
+}
+
+a + a {
+  margin-left: 15px;
 }
 
 ul {
@@ -17,11 +37,18 @@ ul {
 }
 
 #title {
-	width: 100%; 
 	height: 360px;
-	background-image: url(twitch_photos/space.png);
-	background-size: cover;
+	background-image: url(twitch_photos/earth.jpg);
+	background-size: auto 50%;
+	background-attachment: fixed;
+
 }
+
+.background-gradient{
+	background: rgb(207,120,224);
+	background: linear-gradient(90deg, rgba(207,120,224,1) 25%, rgba(100,249,179,1) 100%);
+}
+
 .vertical-center{
 	position: absolute;
 	top: 50%;
@@ -34,22 +61,22 @@ ul {
 .container {
  	position: relative;
 }
-
-.logos{
-	position: absolute;
-	right: 16px;
-	top: 64px;
-}
-
-.fan-art_pos{
-	width: 750px;
+.format-about-heading-text{
+	font-family: 'calibri';
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	max-width: 1000px;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 40px;
 }
 
-.format_about{
+.format-about-description{
+	font-family: 'calibri';
 	text-align: center;
-	max-width: 700px;
+	max-width: 800px;
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -86,18 +113,32 @@ ul {
 	width: 50%;
 	display: inline-block;
 	text-align: center;
+	padding-bottom: 10px;
 	
 }
-.games-photo{
-	width: 50%;
-}
-
 .setup{
 	max-width: 500px;
 	margin-left: 20px;
 	margin-right: 20px;
 	width: 50%;
 	display: inline-block;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.faq{
+	max-width: 500px;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 50%;
+	display: inline-block;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.fan-art_pos{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
 	text-align: center;
 }
 .resource-pack{
@@ -116,14 +157,18 @@ ul {
 
 .navbar-links{
 	padding-top: 10px;
-	margin-left: 20px;
+	padding-left: 20px;
 	text-decoration: none;
-	font-size: 40px;
+	font-size: 20px;
 }
 
 .navbar-links a{
 	color: #BDECEE;
 	text-decoration: none;
+}
 
-
+.cp-text{ 
+	color: rgba(0,0,0,.7); 
+	text-shadow: 0 1px rgba(255, 255, 255, 0.1);
+	text-align: center;
 }

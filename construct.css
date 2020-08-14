@@ -31,6 +31,7 @@ a + a {
 	height: 720px;
 	background-image: url(photos/updated_header.png);
 	background-size: cover;
+	background-attachment: fixed;
 }
 .vertical-center{
 	position: absolute;
