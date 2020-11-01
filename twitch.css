@@ -44,9 +44,9 @@ ul {
 }
 
 #title {
-	height: 400px;
-	background-image: url(twitch_photos/earth.jpg);
-	background-size: auto 50%;
+	height: 640px;
+	background-image: url(photos/night.jpg);
+	background-size: cover;
 	background-attachment: fixed;
 
 }
@@ -61,7 +61,6 @@ ul {
 	top: 50%;
 	transform: translateY(-50%);
 	width: 100%;
-	text-shadow: 10px 10px #18D62F;
 	text-align: center;
 }
 
@@ -192,6 +191,7 @@ ul {
 	padding-left: 20px;
 	text-decoration: none;
 	font-size: 20px;
+	text-align: center;
 }
 
 .navbar-links a{

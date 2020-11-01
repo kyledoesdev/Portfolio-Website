@@ -29,15 +29,24 @@ a + a {
 }
 
 ul {
+	padding-top: 0px;
     list-style-position: inside;
 }
 
+h2{
+	line-height: 0px;
+}
+
+p{
+	padding-bottom: 0px;
+	margin-top: 5px;
+}
 #title span {
 	display: block;	
 }
 #title { 
 	height: 720px;
-	background-image: url(photos/updated_header.png);
+	background-image: url(photos/night.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -95,22 +104,24 @@ ul {
 	width: 50%;
 }
 .experience-projects{
-	text-align: center;
+	
 }
 .experience-title{
+	padding-top: 10px;
 	width: 700px;
-	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 
 }
 .experience-description{
+	padding-top: 10px;
 	width: 700px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .project-list{
+	padding-top: 10px;
 	width: 700px;
 	margin-left: auto;
 	margin-right: auto;
@@ -120,6 +131,7 @@ ul {
 	color: #F57571;
 }
 .education-list{
+	padding-top: 10px;
 	width: 700px;
 	margin-left: auto;
 	margin-right: auto;
@@ -141,10 +153,11 @@ ul {
 }
 
 .navbar-links{
+	text-align: center;
 	padding-top: 10px;
 	padding-left: 20px;
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 30px;
 	
 }
 .navbar-links a{
