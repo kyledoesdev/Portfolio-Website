@@ -20,11 +20,12 @@ body{
  	margin:0;
 }
 
-h1 {
+h1, h2{
     margin: 0px;
    -webkit-margin-before: 20px;
    -webkit-margin-after: 20px;
 }
+
 
 a{
 	text-decoration: none;
@@ -37,6 +38,10 @@ a + a {
 ul {
     text-align: center;
     list-style-position: inside;
+}
+
+iframe{
+	display: block;
 }
 
 #title span {
@@ -125,7 +130,7 @@ ul {
 	max-width: 500px;
 	margin-left: 20px;
 	margin-right: 20px;
-	margin-bottom: 40px;
+	margin-bottom: 10px;
 	width: 50%;
 	display: inline-block;
 	text-align: center;
@@ -142,7 +147,7 @@ ul {
 	max-width: 500px;
 	margin-left: 20px;
 	margin-right: 20px;
-	margin-bottom: 40px;
+	margin-bottom: 10px;
 	width: 50%;
 	display: inline-block;
 	text-align: center;
@@ -154,12 +159,11 @@ ul {
 	padding-right: 20px;
 	padding-bottom: 20px;
 	border-style: solid;
-	border-style: solid;
 	max-height: 700px;
 	max-width: 500px;
 	margin-left: 20px;
 	margin-right: 20px;
-	margin-bottom: 40px;
+	margin-bottom: 10px;
 	width: 50%;
 	display: inline-block;
 	text-align: center;
@@ -197,6 +201,11 @@ ul {
 .navbar-links a{
 	color: #BDECEE;
 	text-decoration: none;
+}
+
+.video{
+	margin: auto;
+	width: 50%;
 }
 
 .cp-text{ 
