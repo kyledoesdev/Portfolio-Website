@@ -61,23 +61,17 @@ p{
 .container {
  	position: relative;
 }
-.twitch-logo {
+.link-logo {
 	position: absolute;
 	top: 25px;
 	right: 25px;
 }
 
-.link-logo{
+.git-logo{
 	position: absolute;
 	top: 105px;
 	right: 25px;
 }
-.git-logo{
-	position: absolute;
-	top: 185px;
-	right: 25px;
-}
-
 .languages{
 	margin-left: 40px;
 	margin-right: 40px;
