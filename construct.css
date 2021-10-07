@@ -18,3 +18,9 @@ p {
 .name-desc {
 	text-align: center;
 }
+
+.centered-clock {
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	font-size: 2vh;
+}
