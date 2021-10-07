@@ -3,7 +3,7 @@
 	<head>
 	  <title>KYLE EVANGELISTO</title>
 	  <link rel="stylesheet" type="text/css" href="styles.css">
-	  <link rel="shortcut icon" type="image/png" href="photos/favicon.png">
+	  <link rel="shortcut icon" type="image/png" href="favicon.png">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,32 +15,43 @@
 	</head>
 
 	<body>
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<div class="row">
+					<ul class="navbar-nav mr-auto navbar-center">
+					  <li class="nav-item">
+						<a class="nav-link active justify-content-center" aria-current="page" href="#">Home</a>
+					  </li>
+					  <li class="nav-item">
+						<a href="about.html" class="nav-link active" href="#">About</a>
+					  </li>
+					  <li class="nav-item">
+						<a href="projects.html" class="nav-link active" href="#">Projects</a>
+					  </li>
+					  <li class="nav-item">
+						<a href="Resume.pdf" class="nav-link active">Resume</a>
+					  </li>
+					  <li class="nav-item dropdown">
+						<a class="nav-link active dropdown-toggle justify-content-center" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Contact
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Linkedin</a>
+							<a class="dropdown-item" href="#">Github</a>
+						</div>
+					  </li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 	  <div class="d-flex justify-content-center align-items-center h-100">
 			<div>
 				<div class="name-desc">
 					<h1 class="display-4 font-weight-bold font-italic" size="10">Kyle Evangelisto</h1>
-					<nav class="navbar navbar-expand-lg navbar-light">
-						<a class="navbar-brand" stylehref="#"></a>
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="navbar-toggler-icon"></span>
-						</button>
-						<div class="collapse navbar-collapse" id="navbarSupportedContent">
-							<ul class="navbar-nav mr-auto navbar-center">
-								<li class="nav-item dropdown">
-									<a class="nav-link dropdown-toggle justify-content-center" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-										Full Stack Software Engineer
-									</a>
-									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-										<a class="dropdown-item" href="#">Action</a>
-										<a class="dropdown-item" href="#">Another action</a>
-										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="#">Something else here</a>
-									</div>
-								</li>
-							</ul>
-						</div>
-					</nav>
-					<br>
+					<h3>Full Stack Web Developer</h3>
 					<img src="lake.jpg" alt="lake.jpg" width="560px" height="320px">
 				</div>
 				<div class="centered-default">
@@ -51,11 +62,6 @@
 						target="_blank" 
 						rel="nofollow">Current time in Philadelphia</a>
 				<script type="text/javascript" src="//w.24timezones.com/l.js" async></script>
-				</div>
-				<div class="centered-default">
-					<a class="text-dark" href="projects.html">Projects</a> //
-					<a class="text-dark" href="about.html">About</a> //
-					<a class="text-dark" href="contact.html">Contact</a>
 				</div>
 			</div>
 		</div>

@@ -25,6 +25,10 @@ p {
 	transform: translatex(-50%);
 }
 
+.dropdown-menu{
+	background-color: rgba(255, 255, 255, 0) !important;
+ }
+
 .name-desc {
 	text-align: center;
 }
@@ -32,5 +36,11 @@ p {
 .centered-default {
 	font-family: 'Ubuntu', sans-serif;
 	text-align: center;
-	font-size: 2vh;
+	font-size: 18px;
 }
+
+@media(max-width: 986px) {
+	.navbar {font-size: 36px;}
+}
+
+
