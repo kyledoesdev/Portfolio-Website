@@ -1,13 +1,17 @@
+* {
+	background-color: #aeb6ca;
+}
 
 html , body {
 	scroll-behavior: smooth;
 }
-body{
-
-}
 
 h1 {
 	font-size: 4vh;
+}
+
+a:link {
+	color: #1E2628;
 }
 
 p {
@@ -15,11 +19,17 @@ p {
 	font-size: 2vh;
 }
 
+.navbar-nav.navbar-center {
+	position: absolute;
+	left: 50%;
+	transform: translatex(-50%);
+}
+
 .name-desc {
 	text-align: center;
 }
 
-.centered-clock {
+.centered-default {
 	font-family: 'Ubuntu', sans-serif;
 	text-align: center;
 	font-size: 2vh;
