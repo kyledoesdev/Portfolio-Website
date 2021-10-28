@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
@@ -40,44 +41,228 @@
           </ul>
         </div>
       </nav>
-      <div id="container">
+      <div class="container">
         <div class="d-flex justify-content-center p-2">
           <div class="card bg-transparent border-0">
             <div class="card-body">
-              <img class="card-img-top rounded-circle" src="photos/me.png">
-              <h4 class="card-title">Kyle Evangelisto</h4>
-              <h5 class="d-flex card-text justify-content-center">TL;DR</h5>
+              <div class="text-center">
+                <img class="card-img-top rounded-circle" src="photos/me.png">
+                <h2 class="card-title">Kyle Evangelisto</h2>
+              </div>
+              <hr />
+              <h3 class="d-flex card-text justify-content-center">TL;DR</h3>
               <span class="card-text">I am a highly capable, full stack developer with experience working with
                   anything from web APIs and frameworks to desktop application development in java
                   and electron. I am passionate about learning new technologies to better myself and 
                   helping my peers learn and succede.
               </span>
             </div>
+            <hr />
+            <h3>Full Stack Experience</h3>
+            <ul>
+              <li>
+                <h5>Delivery Circle June 2020 -</h5>
+                <span>Implemented new features including:</span>
+                <ul>
+                  <li>Order Duplication</li>
+                  <li>Invoice Spreadsheet Downloads w/ Zip Archives</li>
+                  <li>User and Business status filters</li>
+                  <li>Driver Payout Dashboards</li>
+                  <li>Google Secret Manager</li>
+                </ul>
+                <span>Laravel, PHP, MySQL, Javascript, JQuery, Bootstrap, HTML, PHPUnit, Laravel Dusk</span>
+              </li>
+            </ul>
+            <hr />
+            <h3>Education</h3>
+            <ul>
+              <li>
+                <h5>Rowan University Computer Science B.S. 4.0</h5>
+                <span>Course Highlights Include: </span>
+                <ul>
+                  <li>Software Engineering</li>
+                  <li>Design Patterns</li>
+                  <li>Cyber Secruity</li>
+                  <li>Web Programming</li>
+                  <li>Data Structures and Algorithms</li>
+                  <li>Database Systems</li>
+                </ul>
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="d-flex justify-content-center p-2">
-          <div class="card">
-            <div class="d-flex card-header justify-content-center">
-              <h5>Languages / Technologies</h5>
+      </div>
+      <div class="d-flex justify-content-center">
+        <div class="card w-60 m-4">
+          <div class="d-flex card-header justify-content-center">
+            <h2 class="text-dark">Languages / Frameworks</h2>
+          </div>
+          <div class="card-body">
+            <div class="card-group">
+              <div class="card bg-transparent border-0">
+                <div class="d-flex card-header justify-content-center">
+                  <h5 class="text-dark">PHP</h5>
+                </div>
+                <div class="card-body text-center">
+                  <i class="devicon-php-plain"></i>
+                </div>
+              </div>
+              <div class="card bg-transparent border-0">
+                <div class="d-flex card-header justify-content-center">
+                  <h5 class="text-dark">Java</h5>
+                </div>
+                <div class="card-body text-center">
+                  <i class="devicon-java-plain"></i>
+                </div>
+              </div>
+              <div class="card bg-transparent border-0">
+                <div class="d-flex card-header justify-content-center">
+                  <h5 class="text-dark">Python</h5>
+                </div>
+                <div class="card-body text-center">
+                  <i class="devicon-python-plain"></i>
+                </div>
+              </div>
             </div>
-            <div class="card-body">
-              <div class="card-group">
-                <div class="card">
-                  <div class="card-header">
-                    PHP
-                  </div>
-                  <div class="card-body">
-                    <img src="...">
-                  </div>
+            <hr />
+            <div class="card-group">
+              <div class="card bg-transparent border-0">
+                <div class="d-flex card-header justify-content-center">
+                  <h5 class="text-dark">HTML5</h5>
                 </div>
-                <div class="card">
-                  <div class="card-header">
-                    Java
-                  </div>
-                  <div class="card-body">
-                    <img src="...">
-                  </div>
+                <div class="card-body text-center">
+                  <i class="devicon-html5-plain"></i>
                 </div>
+              </div>
+              <div class="card bg-transparent border-0">
+                <div class="d-flex card-header justify-content-center">
+                  <h5 class="text-dark">CSS3</h5>
+                </div>
+                <div class="card-body text-center">
+                  <i class="devicon-css3-plain"></i>
+                </div>
+              </div>
+              <div class="card bg-transparent border-0">
+                <div class="d-flex card-header justify-content-center">
+                  <h5 class="text-dark">Javascript</h5>
+                </div>
+                <div class="card-body text-center">
+                  <i class="devicon-javascript-plain"></i>
+                </div>
+              </div>
+            </div>
+            <div class="card-group">
+              <div class="card bg-transparent border-0">
+                <div class="d-flex card-header justify-content-center">
+                  <h5 class="text-dark">React</h5>
+                </div>
+                <div class="card-body text-center">
+                  <i class="devicon-react-plain"></i>
+                </div>
+              </div>
+              <div class="card bg-transparent border-0">
+                <div class="d-flex card-header justify-content-center">
+                  <h5 class="text-dark">Bootstrap</h5>
+                </div>
+                <div class="card-body text-center">
+                  <i class="devicon-bootstrap-plain"></i>
+                </div>
+              </div>
+              <div class="card bg-transparent border-0">
+                <div class="d-flex card-header justify-content-center">
+                  <h5 class="text-dark">MySQL</h5>
+                </div>
+                <div class="card-body text-center">
+                  <i class="devicon-mysql-plain"></i>
+                </div>
+              </div>
+            </div>
+            <div class="card-group">
+              <div class="card bg-transparent border-0">
+                <div class="d-flex card-header justify-content-center">
+                  <h5 class="text-dark">Laravel</h5>
+                </div>
+                <div class="card-body text-center">
+                  <i class="devicon-laravel-plain"></i>
+                </div>
+              </div>
+              <div class="card bg-transparent border-0">
+                <div class="d-flex card-header justify-content-center">
+                  <h5 class="text-dark">JQuery</h5>
+                </div>
+                <div class="card-body text-center">
+                  <i class="devicon-jquery-plain"></i>
+                </div>
+              </div>
+              <div class="card bg-transparent border-0">
+                <div class="d-flex card-header justify-content-center">
+                  <h5 class="text-dark">C++</h5>
+                </div>
+                <div class="card-body text-center">
+                  <i class="devicon-cplusplus-plain"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center">
+        <div class="card w-60 m-4">
+          <div class="d-flex card-header justify-content-center">
+            <h2 class="text-dark">Technologies</h2>
+          </div>
+          <div class="card-body">
+            <div class="card-group">
+              <div class="card bg-transparent border-0">
+                <div class="d-flex card-header justify-content-center">
+                  <h5 class="text-dark">Composer</h5>
+                </div>
+                <div class="card-body text-center">
+                  <i class="devicon-composer-plain"></i>
+                </div>
+              </div>
+              <div class="card bg-transparent border-0">
+                <div class="d-flex card-header justify-content-center">
+                  <h5 class="text-dark">Git</h5>
+                </div>
+                <div class="card-body text-center">
+                  <i class="devicon-git-plain"></i>
+                </div>
+              </div>
+              <div class="card bg-transparent border-0">
+                <div class="d-flex card-header justify-content-center">
+                  <h5 class="text-dark">Node</h5>
+                </div>
+                <div class="card-body text-center">
+                  <i class="devicon-nodejs-plain"></i>
+                </div>
+              </div>
+            </div>
+            <div class="card-group">
+              <div class="card bg-transparent border-0">
+                <div class="d-flex card-header justify-content-center">
+                  <h5 class="text-dark">NPM</h5>
+                </div>
+                <div class="card-body text-center">
+                  <i class="devicon-npm-original-wordmark"></i>
+                </div>
+              </div>
+              <div class="card bg-transparent border-0">
+                <div class="d-flex card-header justify-content-center">
+                  <h5 class="text-dark">Ubuntu</h5>
+                </div>
+                <div class="card-body text-center">
+                  <i class="devicon-ubuntu-plain"></i>
+                </div>
+              </div>
+              <div class="card bg-transparent border-0">
+                <div class="d-flex card-header justify-content-center">
+                  <h5 class="text-dark">Github</h5>
+                </div>
+                <div class="card-body text-center">
+                  <i class="devicon-github-plain"></i>
+                </div>
+              </div>
             </div>
           </div>
         </div>

@@ -15,9 +15,22 @@ p {
 	font-size: 2vh;
 }
 
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 .card {
 	width: 48rem;
 }
+
+.card-header {
+	font-size: 2.25vh;
+	text-align: center;
+}
+
 
 .rounded-circle {
 	max-height: 250px;
@@ -34,6 +47,8 @@ p {
 	font-size: 18px;
 }
 
-
-
-
+[class*=' devicon-'], [class^='devicon-'] {
+	font-size: 4rem;
+	margin-left: auto;
+	margin-right: auto;
+}
