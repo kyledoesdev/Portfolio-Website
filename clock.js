@@ -4,6 +4,7 @@ time = setInterval(updateTime, 1000);
 
 function updateTime() {
   var clock = new Date();
+  clock.setHours(clock.getUTCHours() - 4); //-4 for EST (Philadelphia)
   var hours = clock.getHours();
   var minutes = clock.getMinutes();
   var seconds = clock.getSeconds();
