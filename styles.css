@@ -47,6 +47,10 @@ hr {
 	font-size: 18px;
 }
 
+#graduation {
+	font-size: small;
+}
+
 [class*=' devicon-'], [class^='devicon-'] {
 	font-size: 4rem;
 	margin-left: auto;
