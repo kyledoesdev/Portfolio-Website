@@ -82,5 +82,6 @@ function countDown () {
         }
     }
     
-    document.getElementById("graduation").innerHTML = finalTime; 
+    //disabled 11/16 because I dont think it looks good and want to clean it up
+    //document.getElementById("graduation").innerHTML = finalTime; 
 }

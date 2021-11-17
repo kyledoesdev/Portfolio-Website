@@ -3,8 +3,9 @@ var time;
 time = setInterval(updateTime, 1000);
 
 function updateTime() {
+
   var clock = new Date();
-  clock.setHours(clock.getUTCHours() - 4); //-4 for EST (Philadelphia)
+  //clock.setHours(clock.getUTCHours() - 4); //-4 for EST (Philadelphia)
   var hours = clock.getHours();
   var minutes = clock.getMinutes();
   var seconds = clock.getSeconds();
@@ -28,4 +29,14 @@ function updateTime() {
   }
 
   document.getElementById("my_clock").innerHTML = hours + ":" + minutes + ":" + seconds + " " + ampm; 
+}
+
+Date.prototype.stdTimezoneOffset = function () {
+  var jan = new Date(this.getFullYear(), 0, 1);
+  var jul = new Date(this.getFullYear(), 6, 1);
+  return Math.max(jan.getTimezoneOffset(), jul.getTimezoneOffset());
+}
+
+Date.prototype.isDstObserved = function () {
+  return this.getTimezoneOffset() < this.stdTimezoneOffset();
 }
