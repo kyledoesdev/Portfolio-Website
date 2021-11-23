@@ -16,6 +16,10 @@ function updateTime() {
     hours = hours - 12;
   }
 
+  if (hours == 0) {
+    hours = 12; //avoid 00 at midnight
+  }
+
   if (hours < 10) {
     hours = "0" + hours;
   }
@@ -31,6 +35,7 @@ function updateTime() {
   document.getElementById("my_clock").innerHTML = hours + ":" + minutes + ":" + seconds + " " + ampm; 
 }
 
+//DST stuff
 Date.prototype.stdTimezoneOffset = function () {
   var jan = new Date(this.getFullYear(), 0, 1);
   var jul = new Date(this.getFullYear(), 6, 1);
