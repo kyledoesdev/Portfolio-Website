@@ -11,7 +11,7 @@ function updateTime() {
   var seconds = clock.getSeconds();
   var ampm = "AM";
 
-  if (hours > 12) {
+  if (hours >= 12) {
     ampm = "PM";
     hours = hours - 12;
   }
