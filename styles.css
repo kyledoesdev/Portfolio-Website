@@ -6,10 +6,6 @@ h1 {
 	font-size: 4vh;
 }
 
-a:link {
-	color: #1E2628;
-}
-
 p {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 2vh;
@@ -45,6 +41,62 @@ hr {
 	font-family: 'Ubuntu', sans-serif;
 	text-align: center;
 	font-size: 18px;
+}
+
+nav {
+	box-shadow: 0 2px 10px -1px rgba(0,0,0,0.75);
+}
+
+/**
+	Main Page navbar effects
+**/
+#navbar > ul > li.nav-item.active > a {
+	opacity: 0.6;
+	transition: 0.3s;
+}
+
+#navbar > ul > li.nav-item.active > a:hover {
+	opacity: 1.0;
+}
+
+/**
+	Navbar item effects
+**/
+#navbar > ul > li.nav-item > a {
+	opacity: 0.6;
+	transition: 0.3s;
+}
+
+#navbar > ul > li.nav-item > a:hover {
+	opacity: 1.0;
+}
+
+/**
+	Github Button effects
+*/
+#navbar > ul > li:nth-child(5) > button > a {
+	color: white;
+	opacity: 0.6;
+	transition: 0.3s;
+}
+
+#navbar > ul > li:nth-child(5) > button > a:hover{
+	color: gray;
+	opacity: 1.0;
+}
+
+/**
+	Linkedin Button effects
+*/
+#navbar > ul > li:nth-child(6) > button > a{
+	color: white;
+	opacity: 0.6;
+	transition: 0.3s;
+}
+
+#navbar > ul > li:nth-child(6) > button > a:hover {
+	color: lightskyblue;
+	opacity: 1.0;
 }
 
 #graduation {
