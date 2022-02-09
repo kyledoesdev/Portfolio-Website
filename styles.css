@@ -27,7 +27,6 @@ hr {
 	text-align: center;
 }
 
-
 .rounded-circle {
 	max-height: 250px;
 	max-width: 250px; 
@@ -47,9 +46,7 @@ nav {
 	box-shadow: 0 2px 10px -1px rgba(0,0,0,0.75);
 }
 
-/**
-	Main Page navbar effects
-**/
+/** Main Page navbar effects **/
 #navbar > ul > li.nav-item.active > a {
 	opacity: 0.6;
 	transition: 0.3s;
@@ -59,9 +56,7 @@ nav {
 	opacity: 1.0;
 }
 
-/**
-	Navbar item effects
-**/
+/** Navbar item effects **/
 #navbar > ul > li.nav-item > a {
 	opacity: 0.6;
 	transition: 0.3s;
@@ -71,9 +66,7 @@ nav {
 	opacity: 1.0;
 }
 
-/**
-	Github Button effects
-*/
+/** Github Button effects **/
 #navbar > ul > li:nth-child(5) > button > a {
 	color: white;
 	opacity: 0.6;
@@ -85,9 +78,7 @@ nav {
 	opacity: 1.0;
 }
 
-/**
-	Linkedin Button effects
-*/
+/** Linkedin Button effects **/
 #navbar > ul > li:nth-child(6) > button > a{
 	color: white;
 	opacity: 0.6;
