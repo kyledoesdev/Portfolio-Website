@@ -2,7 +2,7 @@
   <head>
 	  <title>KYLE EVANGELISTO</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,29 +14,29 @@
 	</head>
   <body style="background-color: #aeb6ca;">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+      <div class="collapse navbar-collapse justify-content-md-center" id="navbar">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link font-weight-bold" href="index.html">Kyle Evangelisto</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active font-weight-bold" href="projects.html">Projects</a>
+            <a class="nav-link active" href="">Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="Resume.pdf">Resume</a>
           </li>
           <li class="nav-item">
-            <button class="btn navbar-btn bg-transparent text-white mr-1"><i class="fa fa-github"></i><a class="text-white" href="https://github.com/kylenotfound"> Github</a></button>
+            <button class="btn navbar-btn bg-transparent text-white mr-1"><i class="fa fa-github"></i><a href="https://github.com/kylenotfound"> Github</a></button>
           </li>
           <li class="nav-item">
-            <button class="btn navbar-btn bg-transparent text-white mr-1"><i class="fa fa-linkedin-square"></i><a class="text-white" href="https://www.linkedin.com/in/kyle-e-71b12b19b/"> Linkedin</a></button>
+            <button class="btn navbar-btn bg-transparent text-white mr-1"><i class="fa fa-linkedin-square"></i><a href="https://www.linkedin.com/in/kyle-e-71b12b19b/"> Linkedin</a></button>
           </li>
         </ul>
       </div>
@@ -59,15 +59,14 @@
       </div>
       <div class="card m-2">
         <div class="card-header">
-          <h3>Tattoo-Gallery</h3>
+          <h3>Tattery</h3>
         </div>
         <div class="card-body">
-          A website made with friends to teach them some basic full stack development. Tattoo-Gallery
-          is an instagram/pintrest type clone that allows users to make an account, customize their profile,
-          share photos of their tattoos and explore other user's posts.
+          An Instagram/Pinterest hybrid web application where a user can create posts of their tattoos, where they got it done
+          and more. This web-app also served as a way to teach others basic front and back end web development with Laravel.
           <br>
           <span class="text-muted">
-            Laravel, PHP, HTML5, Bootstrap, MySQL, Javascript
+            Laravel, PHP, HTML5, Bootstrap, MySQL, Javascript, Vue
           </span>
           <footer class="text-sm text-muted"><a href="https://github.com/kylenotfound/tattoo-gallery">Source</a></footer>
         </div>
@@ -80,7 +79,7 @@
         </div>
         <div class="card-body">
           A small app that utilizes the Spotify API that allows a user to log in with their spotify account,
-          enter and figure out what songs they have listened to the most.
+          enter some search filters and figure out what songs they have listened to the most.
           <br>
           <span class="text-muted">
             Javascript, Express, Pug
@@ -90,17 +89,46 @@
       </div>
       <div class="card m-2">
         <div class="card-header">
-          <h3>React Todo App</h3>
+          <h3>React To-Do List App</h3>
         </div>
         <div class="card-body">
-          To learn the React JS framework I wrote a small to-do app with some fancy styling
-          to become more familiar with React JS.
+          A small to-do list app with some fancy styling to become more familiar with React JS.
           <br>  
           <span class="text-muted">
             React JS
           </span>
           <br>
           <footer class="text-sm text-muted"><a href="todo.html">Live Here</a></footer>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center m-2">
+      <div class="card m-2">
+        <div class="card-header">
+          <h3>Pokedex</h3>
+        </div>
+        <div class="card-body">
+          A web app that displays the original 150 pokemon through the PokemonAPI and some information about each one.
+          <br>
+          <span class="text-muted">
+            Svelte, SvelteKit
+          </span>
+          <footer class="text-sm text-muted"><a href="https://github.com/kylenotfound/Pokedex">Source</a></footer>
+        </div>
+      </div>
+      <div class="card m-2">
+        <div class="card-header">
+          <h3>Whisper</h3>
+        </div>
+        <div class="card-body">
+          An OpenDDS Prototype application created as my semester long, Software Engineering Project in collaberation with <a href="https://www.asrcfederal.com/">ASRC Federal</a>.
+          The application utilizes the Yelp Fusion API and distributes real time Message information through the Pub/Sub design pattern.
+          A publisher can input some search filters via CLI and distribute the returned, parsed results to listening subscribers online.
+          <br>
+          <span class="text-muted">
+            C++, OpenDDS, Curl, JSON
+          </span>
+          <footer class="text-sm text-muted"><a href="https://github.com/kylenotfound/OpenDDS-Whisper">Source</a></footer>
         </div>
       </div>
     </div>
