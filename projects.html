@@ -1,146 +1,158 @@
 <html>
-  <head>
-	  <title>KYLE EVANGELISTO</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-	</head>
-  <body style="background-color: #aeb6ca;">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse justify-content-md-center" id="navbar">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link font-weight-bold" href="index.html">Kyle Evangelisto</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="Resume.pdf">Resume</a>
-          </li>
-          <li class="nav-item">
-            <button class="btn navbar-btn bg-transparent text-white mr-1"><i class="fa fa-github"></i><a href="https://github.com/kylenotfound"> Github</a></button>
-          </li>
-          <li class="nav-item">
-            <button class="btn navbar-btn bg-transparent text-white mr-1"><i class="fa fa-linkedin-square"></i><a href="https://www.linkedin.com/in/kyle-e-71b12b19b/"> Linkedin</a></button>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <br>	
-    <div class="row justify-content-center m-2">
-      <div class="card m-2">
-        <div class="card-header">
-          <h3>PhoneProPlus</h3>
+    <head>
+        <title>KYLE EVANGELISTO</title>
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        
+		<!-- CSS Styles -->
+		<link rel="stylesheet" type="text/css" href="styles/app.css">
+		
+		<!-- Bootstrap and Styling CDNs -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body style="background-color: #aeb6ca;">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-md-center" id="navbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link font-weight-bold" href="index.html">Kyle Evangelisto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Resume.pdf">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn navbar-btn bg-transparent text-white mr-1"><i class="fa fa-github"></i><a href="https://github.com/kylenotfound"> Github</a></button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn navbar-btn bg-transparent text-white mr-1"><i class="fa fa-linkedin-square"></i><a href="https://www.linkedin.com/in/kyle-e-71b12b19b/"> Linkedin</a></button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="row justify-content-center m-2">
+            <div class="card m-4" id="project-card">
+                <div class="card-header" id="project-card-header">
+                    <h3>Tattery</h3>
+                </div>
+                <div class="card-body" id="project-card-body">
+                    An Instagram/Pinterest hybrid web application where a user can create posts of their tattoos, where they got it done
+                    and more. This web-app also served as a way to teach others basic front and back end web development with Laravel.
+                </div>
+                <footer class="card-footer text-sm" id="project-card-footer">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <span class="text-white mx-0">
+                                Laravel, PHP, Blade, Bootstrap, MySQL, Javascript, Vue3
+                            </span>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-end">
+                            <a href="https://github.com/kylenotfound/tattoo-gallery">Source</a>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+            <div class="card m-4" id="project-card">
+                <div class="card-header" id="project-card-header">
+                    <h3>SDP Tracker</h3>
+                </div>
+                <div class="card-body" id="project-card-body">
+                    A Laravel application made for the Sleep Deprived Podcast. The sleep deprived podcast contains a weekly segment
+                    where the pocast members have a debate or a discussion about a particular topic. This application tracks the
+                    discussions from week-to-week and allows users to view the data from prior episodes.
+                </div>
+                <footer class="card-footer text-sm" id="project-card-footer">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <span class="text-white mx-0">
+                                Laravel, PHP, Blade, Bootstrap, MySQL, AWS
+                            </span>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-end">
+                            <a href="https://www.sdp-tracker.com">Live Here</a>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+            <div class="card m-4" id="project-card">
+                <div class="card-header" id="project-card-header">
+                    <h3>PhoneProPlus</h3>
+                </div>
+                <div class="card-body" id="project-card-body">
+                    My semester long web programming project. Acts as a living phone book, where in users can access a public dataset of 
+                    comapny and residential phone records. Users can also create an account or log in with google and create their own 
+                    records, save records to their profile and more.
+                </div>
+                <footer class="card-footer text-sm" id="project-card-footer">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <span class="text-white mx-0">
+                                Laravel, PHP, HTML5, Bootstrap, MySQL, Javascript, JQuery, Heroku
+                            </span>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-end">
+                            <a href="https://github.com/kylenotfound/phoneproplus">Source</a>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+            <div class="card m-4" id="project-card">
+                <div class="card-header" id="project-card-header">
+                    <h3>SPRecPro</h3>
+                </div>
+                <div class="card-body" id="project-card-body">
+                    Built as my Senior Project at Rowan University with a small team, SPRecPro is 
+                    a Django based Spotify Social media experience. Users have an Instagram like experience but in relation to
+                    their Spotify profile and song recommendations. Search for Song and Playlist recommendations. Connect with friends and see what they are
+                    recommending. Explore the app for recommendations, share your thougts and opinions and more.
+                </div>
+                <footer class="card-footer text-sm" id="project-card-footer">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <span class="text-white mx-0">
+                                Django, Python, HTML, Bootstrap, SQLite, AWS
+                            </span>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-end">
+                            <a href="https://github.com/nativepapaya/Spring-2022-Senior-Project">Source</a>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+            <div class="card m-4" id="project-card">
+                <div class="card-header" id="project-card-header">
+                    <h3>SLSB</h3><span> (name is a wip)</span>
+                </div>
+                <div class="card-body" id="project-card-body">
+                    A website/blog/subreddit for my twtich channel. Allows users to sign in with their twitch account and 
+                    follow, like, comment and interact with streamers they enjoy. You can customize your profile to include
+                    things like your favorite twitch categories, computer specifications, links to other social media accounts
+                    and much more to come. This application is still under development.
+                </div>
+                <footer class="card-footer text-sm" id="project-card-footer">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <span class="text-white mx-0">
+                                Laravel, PHP, Blade, Bootstrap, Vue, Twitch-API, MySQL
+                            </span>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-end">
+                            <a href="https://github.com/kylenotfound/slsb">Source</a>
+                        </div>
+                    </div>
+                </footer>
+            </div>
         </div>
-        <div class="card-body">
-          My semester long web programming project. Acts as a living phone book, where in users can 
-          access a public dataset of comapny and residential phone records. Users can also create an account
-          or log in with google and create their own records, save records to their profile and more.
-          <br>
-          <span class="text-muted">
-            Laravel, PHP, HTML5, Bootstrap, MySQL, Javascript, JQuery, Heroku
-          </span>
-          <footer class="text-sm text-muted">
-            <a href="https://github.com/kylenotfound/PhoneProPlus" terget="_blank">Source</a> //
-            <a href="https://phoneproplus.herokuapp.com" target="_blank">Live Here</a>
-          </footer>
-        </div>
-      </div>
-      <div class="card m-2">
-        <div class="card-header">
-          <h3>Tattery</h3>
-        </div>
-        <div class="card-body">
-          An Instagram/Pinterest hybrid web application where a user can create posts of their tattoos, where they got it done
-          and more. This web-app also served as a way to teach others basic front and back end web development with Laravel.
-          <br>
-          <span class="text-muted">
-            Laravel, PHP, HTML5, Bootstrap, MySQL, Javascript, Vue
-          </span>
-          <footer class="text-sm text-muted"><a href="https://github.com/kylenotfound/tattoo-gallery">Source</a></footer>
-        </div>
-      </div>
-    </div>
-    <div class="row justify-content-center m-2">
-      <div class="card m-2">
-        <div class="card-header">
-          <h3>Top Spotify Songs</h3>
-        </div>
-        <div class="card-body">
-          A small app that utilizes the Spotify API that allows a user to log in with their spotify account,
-          enter some search filters and figure out what songs they have listened to the most.
-          <br>
-          <span class="text-muted">
-            Javascript, Express, Pug
-          </span>
-          <footer class="text-sm text-muted"><a href="https://github.com/kylenotfound/TopSpotifySongs">Source</a></footer>
-        </div>
-      </div>
-      <div class="card m-2">
-        <div class="card-header">
-          <h3>ProfsForChange</h3>
-        </div>
-        <div class="card-body">
-          A project I created at ProfHacks2022, Rowan University's annual hackathon.
-          I followed the "social change/ social good" track and created a web platform
-          for students and staff to create Fundraising, Volunteering and Protest events.
-          Users can register for those events to inform the organizer that they will be attending and
-          spread the word about the upcoming event.
-          Created in 11 hours. This project won <b>First Place.</b>
-          <br>  
-          <span class="text-muted">
-            Laravel, PHP, MySQL, Javascript, HTML, Bootstrap
-          </span>
-          <br>
-          <footer class="text-sm text-muted"><a href="https://www.github.com/kylenotfound/ProfHacks2022">Source</a></footer>
-        </div>
-      </div>
-    </div>
-    <div class="row justify-content-center m-2">
-      <div class="card m-2">
-        <div class="card-header">
-          <h3>Pokedex</h3>
-        </div>
-        <div class="card-body">
-          A web app that displays the original 150 pokemon through the PokemonAPI and some information about each one.
-          An introductory project created to explore Svelte and SvelteKit.
-          <br>
-          <span class="text-muted">
-            Svelte, SvelteKit
-          </span>
-          <footer class="text-sm text-muted"><a href="https://github.com/kylenotfound/Pokedex">Source</a></footer>
-        </div>
-      </div>
-      <div class="card m-2">
-        <div class="card-header">
-          <h3>Whisper</h3>
-        </div>
-        <div class="card-body">
-          An OpenDDS Prototype application created as my semester long, Software Engineering Project in collaberation with <a href="https://www.asrcfederal.com/">ASRC Federal</a>.
-          The application utilizes the Yelp Fusion API and distributes real time Message information through the Pub/Sub design pattern.
-          A publisher can input some search filters via CLI and distribute the returned, parsed results to listening subscribers online.
-          <br>
-          <span class="text-muted">
-            C++, OpenDDS, Curl, JSON
-          </span>
-          <footer class="text-sm text-muted"><a href="https://github.com/kylenotfound/OpenDDS-Whisper">Source</a></footer>
-        </div>
-      </div>
-    </div>
-  </body>
+    </body>
 </html>
