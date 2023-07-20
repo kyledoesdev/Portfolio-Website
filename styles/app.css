@@ -4,7 +4,11 @@ html , body {
 }
 
 h1 {
-	font-size: 4vh;
+	font-size: 6vh;
+}
+
+h2 {
+    font-size: 4vh;
 }
 
 p {
