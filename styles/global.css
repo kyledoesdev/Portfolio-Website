@@ -1,0 +1,53 @@
+html , body {
+	scroll-behavior: smooth;
+    background: linear-gradient(45deg, rgba(207,120,224,1) 25%, rgba(100,249,179,1));
+    background-size: 400% 400%; /* Adjust for animation speed */
+    animation: gradientAnimation 20s linear infinite;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 5px solid rgba(0, 0, 0, 0.1);
+}
+
+@keyframes gradientAnimation {
+    0%, 100% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+}
+
+[class*=' devicon-'], [class^='devicon-'] {
+	font-size: 4rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.resume-icon {
+    font-size: 4rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.custom-fade {
+    opacity: 0; 
+    transition: opacity 350ms ease-in-out;
+}
+
+.custom-hvr {
+    transition: transform 0.2s ease-in-out;
+}
+
+.custom-hvr:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.custom-underline {
+    padding-bottom: 4px; 
+    border-bottom: 1px solid;
+}
