@@ -1,0 +1,4 @@
+body {
+    transition: opacity 350ms ease-in-out; 
+    opacity: 0;
+}
