@@ -5,3 +5,5 @@
 * Javascript
 
 ## [Website](https://www.kyleevangelisto.com)
+
+### Laravel Version w/ Blog coming soon
