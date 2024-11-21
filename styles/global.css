@@ -22,7 +22,6 @@ hr {
 }
 
 [class*=' devicon-'], [class^='devicon-'] {
-	font-size: 4rem;
 	margin-left: auto;
 	margin-right: auto;
 }

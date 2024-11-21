@@ -1,70 +1,84 @@
 <html>
     <head>
-        <title>KYLE EVANGELISTO</title>
+        <title>Kyle's Career</title>
         <link rel="shortcut icon" type="image/png" href="../img/favicon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- CSS Styles -->
         <link rel="stylesheet" type="text/css" href="../styles/global.css">
         <link rel="stylesheet" type="text/css" href="../styles/pages.css">
 
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+        <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
         <script src="https://cdn.tailwindcss.com"></script>
         <script src="../scripts/pages.js" type="text/javascript"></script>
     </head>
     <body>
-        <div class="container mx-auto pt-12">
+        <div class="container pt-4 px-2 md:mx-auto">
             <a href="../index.html?writer=off" class="inline-flex items-center px-4 py-1 mb-4 border border-gray-900 text-sm font-medium rounded-md text-white bg-gray-800 hover:bg-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 transition ease-in duration-100 cursor-pointer">
                 &larr; Home
             </a>
             <div class="flex justify-between">
-                <div>
-                    <h1 class="text-6xl font-bold text-gray-900 mb-4" title="Kyle e-van-jell-is-toe">
+                <div class="w-full sm:w-auto">
+                    <h5 
+                        class="text-3xl md:text-4xl lg:text-6xl font-bold text-gray-900 mb-4" 
+                        id="my-name"
+                    >
                         Kyle Evangelisto
-                    </h1>
+                    </h5>
                 </div>
-                <div class="flex">
-                    <a class="custom-hvr p-2" href="https://www.linkedin.com/in/kyle-e-71b12b19b/">
-                        <h1>
-                            <i class="devicon-linkedin-plain"></i>
-                        </h1>
+                <div class="flex" id="socials">
+                    <a class="custom-hvr p-2" href="https://x.com/kyledoesdev">
+                        <h5>
+                            <i class="md:text-3l lg:text-6xl devicon-twitter-original"></i>
+                        </h5>
                     </a>
-                    <a class="custom-hvr p-2" href="https://github.com/kylenotfound">
-                        <h1>
-                            <i class="devicon-github-original"></i>
-                        </h1>
+                    <a class="custom-hvr p-2" href="https://www.linkedin.com/in/kyle-e-71b12b19b/">
+                        <h5>
+                            <i class="md:text-3l lg:text-6xl devicon-linkedin-plain"></i>
+                        </h5>
+                    </a>
+                    <a class="custom-hvr p-2" href="https://github.com/kyledoesdev">
+                        <h5>
+                            <i class="md:text-3l lg:text-6xl devicon-github-original"></i>
+                        </h5>
                     </a>
                 </div>
             </div>
             <div>
-                <h2 class="text-4xl text-gray-800 mb-2">Full Stack Software Engineer</h2>
+                <h5 class="text-lg md:text-xl lg:text-2xl font-semi-bold text-gray-800 mb-2">
+                    Full Stack Software Engineer
+                </h5>
                 <hr>
             </div>
-            <div class="grid grid-cols-2 gap-6 mt-6 p-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 md:gap-6 lg:gap-6 mt-2 md:mt-6 mb-2 lg:mb-8">
                 <div>
                     <div class="flex justify-between">
-                        <div><h5 class="text-2xl custom-underline">Background</h5></div>
+                        <div>
+                            <h5 class="text-xl custom-underline">
+                                Background
+                            </h5>
+                        </div>
                         <div></div>
                     </div>
-                    <p class="mt-2">
-                        I entered the Software Engineering industry in June of 2020 while I was finishing up my
+                    <p class="text-xs md:text-sm mt-2">
+                        I entered the Software Engineering industry in June of 2020 while I was finishing my
                         sophomore year of university during the Covid-19 pandemic. As the pandemic started, I used
                         the spare time I found to begin to teach myself basic HTML, CSS & Javascript and made some
-                        pretty bad beginner websites. (Including this one!) I continued to practice & learn php.
-                        A few months later, I was offered a position as a Software Engineer through a friend I had 
-                        met in school.
+                        pretty bad beginner websites. (Including this one!) I continued to practice & learn other scripting languages like php & python.
+                        A few months later, I was offered a position as a Software Engineer through a friend I had met in school.
                     </p>
-                    <p class="mt-4">
-                        I worked part time at Delivery Circle while I contined my degree from June of 2020 until
+                    <p class="text-xs md:text-sm mt-4">
+                        I worked part time at Delivery Circle while I continued my degree from June of 2020 until
                         Feburary 2022 when I was let go from company. During my time there, I became more familiar
-                        with several different technologies including PHP, Laravel, JQuery, MySQL & more. I worked on
-                        several projects with the largest being an order payout for drivers.
+                        with several different technologies including PHP, Laravel, JQuery, MySql & more. I worked on
+                        several projects with the largest being an order payout dashboard for drivers.
                     </p>
-                    <p class="mt-4">
+                    <p class="text-xs md:text-sm mt-4">
                         After leaving Delivery Circle, I was hired shortly after by Retail Insights LLC. At Retail Insights,
                         I've lead & collaberteed on internal and client facing tools. Some of those projects include
-                        Consumer & Rx drug pricing, promotion and deal bidding. Some others are Tradeshow registration systems, 
+                        Consumer & Rx drug pricing, promotion and deal bidding, tradeshow registration systems,
                         new supplier setup & submission, compliance form handling and more. At Retail Insights, I've mastered 
-                        tools like Laravel, Livewire, JQuery, SCSS, Vue Js, MySql, AWS Modules and more.
+                        tools like Laravel, Livewire, JQuery, SASS, Vue Js, MySql, AWS Modules and more.
                     </p>
                 </div>
                 <div>
@@ -72,16 +86,18 @@
                         <div><h5 class="text-2xl custom-underline">Timeline</h5></div>
                         <div></div>
                     </div>
-                    <div class="mt-2" style="max-height: 600px; overflow-y: auto;">
+                    <div class="text-xs md:text mt-2">
                         <div class="flex justify-between">
                             <div>
-                                <h4 class="text-3xl custom-underline">Retail Insights LLC. March 2022 - Present</h4>
-                                <h5 class="text-xl mt-1">Software Engineer II</h5>
+                                <h5 class="text-lg md:text-xl lg:text-xl custom-underline">
+                                    Retail Insights LLC. March 2022 - Present
+                                </h5>
+                                <h5 class="text-xs md:text-sm mt-1">Software Engineer II</h5>
                                 <ul class="list-disc mt-1 mx-12">
                                     <li>PHP/Laravel & Livewire</li>
                                     <li>Javascript, JQuery & Vue JS</li>
                                     <li>MySQL, MySQL Workbench</li>
-                                    <li>Blade, Bootstrap, SCSS</li>
+                                    <li>Blade, Bootstrap, SASS</li>
                                     <li>AWS, Github, Jira</li>
                                 </ul>
                             </div>
@@ -89,8 +105,10 @@
                         </div>
                         <div class="flex justify-between">
                             <div class="mt-4">
-                                <h4 class="text-3xl custom-underline">Delivery Circle. June 2020 - Feb 2022</h4>
-                                <h5 class="text-xl mt-1">Software Engineer II</h5>
+                                <h5 class="text-lg md:text-xl lg:text-xl custom-underline">
+                                    Delivery Circle. June 2020 - Feb 2022
+                                </h5>
+                                <h5 class="text-xs md:text-sm mt-1">Software Engineer II</h5>
                                 <ul class="list-disc mt-1 mx-12">
                                     <li>PHP/Laravel</li>
                                     <li>Javascript, JQuery</li>
